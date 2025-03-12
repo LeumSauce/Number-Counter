@@ -1,0 +1,11 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div#BtnContainer {
+    border: 3px solid black;
+    text-align: center;
+}
+H1#MyH1{
+    font-size: 50px;
+    text-align: center;
+}
