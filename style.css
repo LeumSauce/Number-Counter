@@ -1,11 +1,46 @@
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the content is centered vertically */
+    margin: 0; /* Remove default margin */
 }
+
 div#BtnContainer {
-    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack the counter above the buttons */
+    width: 300px; /* Fixed width for the container */
+    height: auto; /* Height adjusts based on content */
+    border: 3px solid black; /* Border around the container */
     text-align: center;
+    background-color: lightgreen;
+    border-radius: 5px; /* Rounded corners for the container */
+    padding: 10px;
 }
-H1#MyH1{
+
+H1#MyH1 {
     font-size: 50px;
     text-align: center;
+    margin: 0;
+    padding: 10px;
+    width: 100%; /* Make width 100% of the container */
+    box-sizing: border-box; /* Include border in the width */
+    border: 3px solid black; /* Border around the number counter */
+    border-radius: 5px;
+    background-color: lightyellow;
+}
+
+#BtnContainer button {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    width: 80px; /* Set all buttons to the same width */
+    height: 50px; /* Set all buttons to the same height */
+    margin: 5px; /* Space between buttons */
+    border-radius: 10px;
+    background-color: lightblue;
+    cursor: pointer;
 }
